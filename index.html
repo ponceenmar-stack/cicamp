@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CICAMP | Centro Interactivo de Capacitación</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif;}
+
+body{background:#f4f6f9;color:#0F2E4C;}
+
+nav{
+background:white;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+box-shadow:0 4px 15px rgba(0,0,0,0.05);
+}
+
+nav img{height:60px;}
+
+nav a{
+text-decoration:none;
+margin-left:25px;
+color:#0F2E4C;
+font-weight:500;
+}
+
+nav a:hover{color:#D62828;}
+
+header{
+background:linear-gradient(135deg,#0F2E4C,#1F4E79);
+color:white;
+padding:120px 8%;
+text-align:center;
+}
+
+header h1{font-size:3rem;font-weight:700;}
+
+header p{margin-top:20px;font-size:1.2rem;max-width:700px;margin:auto;}
+
+.btn{
+display:inline-block;
+margin-top:30px;
+padding:14px 32px;
+background:#D62828;
+color:white;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+}
+
+section{padding:90px 8%;}
+
+h2{text-align:center;margin-bottom:50px;font-size:2rem;}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:30px;
+}
+
+.card{
+background:white;
+padding:35px;
+border-radius:15px;
+box-shadow:0 10px 30px rgba(0,0,0,0.05);
+}
+
+.card h3{margin-bottom:15px;color:#1F4E79;}
+
+.highlight{
+background:#1F4E79;
+color:white;
+text-align:center;
+}
+
+footer{
+background:#0F2E4C;
+color:white;
+text-align:center;
+padding:30px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<img src="logo.png">
+<div>
+<a href="#institucion">Institución</a>
+<a href="#programas">Programas</a>
+<a href="#certificaciones">Certificaciones</a>
+<a href="#contacto">Contacto</a>
+</div>
+</nav>
+
+<header>
+<h1>Centro Interactivo de Capacitación</h1>
+<p>15 años formando profesionales de la salud bajo estándares nacionales e internacionales.</p>
+<a href="#programas" class="btn">Conocer Programas</a>
+</header>
+
+<section id="institucion">
+<h2>Nuestra Institución</h2>
+<p style="text-align:center;max-width:800px;margin:auto;">
+CICAMP es un centro de formación con más de 15 años de experiencia en capacitación
+para profesionales de la salud. Ofrecemos programas avalados por organismos
+nacionales e internacionales, enfocados en excelencia académica y entrenamiento basado en simulación.
+</p>
+</section>
+
+<section id="programas">
+<h2>Programas Académicos</h2>
+<div class="grid">
+
+<div class="card">
+<h3>BLS</h3>
+<p>Soporte Vital Básico certificado por AHA.</p>
+<a href="bls.html" class="btn">Ver Detalles</a>
+</div>
+
+<div class="card">
+<h3>ACLS</h3>
+<p>Soporte Vital Cardiovascular Avanzado.</p>
+<a href="acls.html" class="btn">Ver Detalles</a>
+</div>
+
+<div class="card">
+<h3>PALS</h3>
+<p>Soporte Vital Avanzado Pediátrico.</p>
+<a href="pals.html" class="btn">Ver Detalles</a>
+</div>
+
+</div>
+</section>
+
+<section id="certificaciones" class="highlight">
+<h2>Certificaciones Oficiales</h2>
+<p>
+Ministerio de Salud (MINSA)<br>
+American Heart Association (AHA)<br>
+National Association of Emergency Medical Technicians (NAEMT)
+</p>
+</section>
+
+<section style="text-align:center;">
+<h2>Portafolio Institucional</h2>
+<a href="portafolio.pdf" class="btn" target="_blank">Descargar Portafolio</a>
+</section>
+
+<footer>
+© 2026 CICAMP | Centro Interactivo de Capacitación
+</footer>
+
+</body>
+</html>
